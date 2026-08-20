@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-orange: #ff6a1f;
+  --color-orange-dark: #c94f13;
+  --color-ink: #141311;
+  --color-muted: #c9c4b8;
+  --color-gray-text: #5c5a54;
+  --color-card-border: #ecece7;
+  --color-page-bg: #f6f5f2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--color-page-bg);
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+}
